@@ -1,0 +1,25 @@
+{
+  "models": {
+    "gigachat-lite": {
+      "enabled": false,
+      "provider": "gigachat",
+      "model": "GigaChat-2",
+      "scope": "GIGACHAT_API_PERS",
+      "ca_file": "/absolute/path/to/verified-russian-root-ca.pem"
+    }
+  },
+  "projects": {
+    "synthetic-example": {
+      "enabled": false,
+      "models": ["gigachat-lite"],
+      "categories": ["code"],
+      "max_requests": 5,
+      "max_cost": 0,
+      "price_per_million": null,
+      "max_output_tokens": 300
+    },
+    "volkovitsky-ai-studio": {"enabled": false, "models": [], "categories": []},
+    "mosgortur-dashboard": {"enabled": false, "models": [], "categories": []},
+    "budgetbot": {"enabled": false, "models": [], "categories": []}
+  }
+}

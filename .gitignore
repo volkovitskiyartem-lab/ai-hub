@@ -1,0 +1,6 @@
+state/
+node_modules/
+*.pem
+*.key
+.env
+backups/
